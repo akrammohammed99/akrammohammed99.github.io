@@ -1,92 +1,128 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <!-- CSS code-->
-  
-        <style>
-            /*apply css properties to body tag*/
-  
-            body {
-                position: absolute;
-                left: 0%;
-                text-align: center;
-            }
-  
-            /*apply css properties to container class*/
-  
-            .container {
-                justify-content: center;
-                align-items: center;
-                display: flex;
-                height: 100%;
-                text-align: center;
-            }
-  
-            /*apply css properties to button tag*/
-  
-            button {
-                width: 90px;
-                height: 60px;
-                font-size: 30px;
-                background-color: green;
-                color: honeydew;
-            }
-  
-            /*apply hover effect to button tag*/
-  
-            button:hover {
-                background-color: greenyellow;
-                color: grey;
-            }
-  
-            /*apply css properties to h2 tag*/
-  
-            h2 {
-                color: black;
-                margin: 0 50px;
-                font-size: 45px;
-            }
-            /*apply css properties to h1 tag*/
-  
-            h1 {
-                font-size: 35px;
-                color: green;
-                text-align: center;
-                padding-left: 10%;
-            }
-        </style>
-    </head>
-  
+		
+        <meta charset="UTF-8">	
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+        <title>Akram's Portfolio</title>
+        <script src="https://kit.fontawesome.com/9946c2eb49.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="css/style.css">
+		
+	</head>
+	<STYLE>A {text-decoration: none;} </STYLE>
     <body>
-        <!-- give a suitable heading using h1 tag-->
-        <h1>Increment and Decrement counter</h1>
-  
-        <div ="container">
-            <!-- adding button and heading to show the digits -->
-            <!-- increment() and decrement() functions on button click-->
-            <button onclick="increment()">+</button>
-            <h2 id="counting"></h2>
-            <button onclick="decrement()">-</button>
-        </div>
-        <!-- JavaScript code-->
-        <script>
-            //initialising a variable name data
-            var data = 0;
-  
-            //printing default value of data that is 0 in h2 tag
-            document.getElementById("counting").innerText = data;
-  
-            //creation of increment function
-            function increment() {
-                data = data + 1;
-                document.getElementById("counting").innerText = data;
-            }
-            //creation of decrement function
-            function decrement() {
-                data = data - 1;
-                document.getElementById("counting").innerText = data;
-            }
-        </script>
-    </body>
+		<div id="wrapper">	
+		
+         <nav>
+                <div class="logo">
+                    <h4>Akram Mohammed</h4>
+				</div>
+				
+                    <ul class="nav-links">
+                        <li> <a href="index.html">Home</a> </li>
+                        <li> <a href="about.html">About</a> </li>
+                        <li> <a href="#">Projects</a> </li>
+                        <li> <a href="#">Contact</a> </li>
+
+					</ul>
+				
+                    <div class="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>   
+                        <div class="line3"></div>
+                    </div>
+                    </nav>
+                    <script src="app.js"></script>
+          
+                    <div class="blogheading">
+                        <h2>My Blogs</h2>
+                    </div>
+
+					
+					<!--  <hr style="border: 4px solid black;" />  -->
+
+					
+
+
+<!-- Geeeeeks code start-->
+		<!-- ARTICLE 1-->
+		<article class="article1"> 
+        <a href="firstpost.html" class="imagemain"><img src= "img/letters.jpg"
+                          alt="" width="580" height="250"
+                          class="Image1size" /> 
+		
+		<h1 style="font-family: 'Poppins',sans-serif;
+		 font-size:20px; color: black; padding-top: 10px;">The golden tip to learning any language faster.</h1> 
+        <p style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> March 17,2020 </p> 
+		</a>
+	   </article> 
+	   
+	   <!-- ARTICLE 2-->
+	   <article class="article2"> 
+	   <a href="secondpost.html" class="imagemain"><img src= "img/iphone.jpg" 
+						alt="" width="580" height="250"
+						class="Image2size" /> 
+
+		<h1 style="font-family: 'Poppins',sans-serif;
+					font-size:20px; color: black; padding-top: 10px;">How does your smartphone work?</h1> 
+ <p style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> March 17,2020 </p> 
+		</a>
+		</article> 
+
+	<!-- ARTICLE 3-->
+<article class="article3"> 
+<a href="#" class="imagemain"><img src= "img/letters.jpg"
+  alt="" width="580" height="250"
+  class="Image3size" /> 
+
+<h1 style="font-family: 'Poppins',sans-serif;
+font-size:20px; color: black; padding-top: 10px;">The golden tip to learning any language faster.</h1> 
+ <p style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> March 17,2020 </p> 
+</a>
+</article> 
+		
+
+<!-- ARTICLE 4-->
+	<article class="article4"> 
+	<a href="#" class="imagemain"><img src= "img/letters.jpg"
+	  alt="" width="580" height="250"
+	  class="Image4size" /> 
+	
+	<h1 style="font-family: 'Poppins',sans-serif;
+	font-size:20px; color: black; padding-top: 10px;">The golden tip to learning any language faster.</h1> 
+	 <p style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> March 17,2020 </p> 
+	</a>
+	</article> 
+		  
+		
+		<footer class="footer">
+            
+            <a href="mailto:akram.mohammed@live.com" class="footer__link">akram.mohammed@live.com</a>
+			<ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://linkedin.com">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+			</ul>
+			
+        </footer>
+        
+    
+	</div><!--end of page container of entire content-->   
+	</body>    
+	
+     
 </html>
